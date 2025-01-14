@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+
+.logo-head {
+    display: flex;
+    gap: 6px;
+}
+.btn-head {
+    background-color: rgba(252, 0, 74, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 256px;
+    height: 36px;
+    border-radius: 12px;
+    gap: 12px;
+}
+.btn-head button {
+    width: 147px;
+    height: 24px;
+    background-color: rgba(252, 0, 74, 1);
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;  
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.section-1 img {
+    margin-top: 63px;
+    margin-left: 40px;
+    width: 1450px;
+}
+
+.section-2 {
+    margin-top: 65px;
+    height: 200vh;
+}
+.section-2 h1 {
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-left: 24px;
+}
+
+.food-container-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.cards-1 {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.425);
+    border-radius: 15px;
+}
+.cards-1 h2 {
+    font-size: 17.66px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.cards-1 p {
+    font-size: 18.28px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(252, 0, 74, 1);
+    margin-top: 9px;
+    margin-left: 20px;
+}
+.cards-1 button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: rgba(252, 0, 74, 1);
+    font-size: 30px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 12px;
+    text-align: center;
+    margin-left: 240px;
+}
+
+
+.food-container-cards-2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.food-container-cards-3 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+
+
+.section-3-footer {
+    height: 80px;
+}
+.feet {
+    display: flex;
+    justify-content: space-around;
+}
+

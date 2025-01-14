@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-head">
+                    <img src="img/main_logo.svg fill.png" alt="">
+                <div class="btn-head">
+                    <img src="img/location.svg.png" alt="">
+                    <button>Укажите свой адрес</button>  
+                </div>
+            </div>   
+                <ul>
+                    <li>О нас</li>
+                    <li>Меню</li>
+                    <li>Акции</li>
+                    <li>Филиалы</li>
+                    <li>Контакты</li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-1">
+            <img src="img/Container.png" alt="">
+        </section>
+
+        <section class="section-2">
+                <h1>Сеты</h1>
+                <div class="food-container-cards">
+                    <div class="cards-1">
+                        <img src="img/HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+                        <h2>Qiyqiriq сет</h2>
+                        <p>45 000 сум</p>
+                        <button onclick="order('Qiyqiriq сет', 45000)">+</button>
+                    </div>
+                    <div class="cards-1">
+                        <img src="img/cbidR6KU18nziNPphlU3jpa8OZi1nhaRKJkc93Cn.webp.png" alt="">
+                        <h2>Снек сет</h2>
+                        <p>79 000 сум</p>
+                        <button onclick="order('Снек сет', 79000)">+</button>
+                    </div>
+                    <div class="cards-1">
+                        <img src="img/h7WO4cUYGJBiBUFs2qeUAYMhe5xYEXlSSLd1LWCa.webp.png" alt="">
+                        <h2>Классик сет</h2>
+                        <p>34 000 сум</p>
+                        <button onclick="order('Классик сет', 34000)">+</button>
+                    </div>
+                    <div class="cards-1">
+                        <img src="img/xJNb3iZ1NJ8Yx11eVSQ3X2CMSn5nruiAH8p9A35U.webp.png" alt="">
+                        <h2>Лонгер рингс сет</h2>
+                        <p>45 000 сум</p>
+                        <button onclick="order('Лонгер рингс сет', 45000)">+</button>
+                    </div>
+                    </div>
+
+                    <div class="food-container-cards-2">
+                    <div class="cards-1">
+                        <img src="img/45sfsptLWqT9vq7X3cfx1bIXZXLUuCULyln6EZlf.webp.png" alt="">
+                        <h2>Биг сет</h2>
+                        <p>62 000 сум</p>
+                        <button onclick="order('Биг сет', 62000)">+</button>
+                    </div>
+                       <div class="cards-1">
+                        <img src="img/9RplsrJissmFUdjyIDNnRsjr12vfFUc2RZwd7iOq.webp.png" alt="">
+                        <h2>Лестер сет</h2>
+                        <p>53 000 сум</p>
+                        <button onclick="order('Лестер сет', 53000)">+</button>
+                    </div>
+                    <div class="cards-1">
+                        <img src="img/uJTcWJyBmtLq9abqzFXeiNgwFcItwFPGrllH9lGW.webp.png" alt="">
+                        <h2>Скул сет</h2>
+                        <p>36 000 сум</p>
+                        <button onclick="order('Скул сет', 36000)">+</button>
+                    </div>
+                    <div class="cards-1">
+                        <img src="img/p0TZUFzdFp7riQd4NFukH7bYCguz0h9jT5jbHNXy.webp.png" alt="">
+                        <h2>Комбо сет Большой</h2>
+                        <p>20 000 сум</p>
+                        <button onclick="order('Комбо сет Большой', 20000)">+</button>
+                    </div>
+                    </div>
+                <div class="food-container-cards-3">
+                    <div class="cards-1">
+                        <img src="img/d4xA2cZWeidDPxv0mlQ2hsYEMQacOIqsWbWy92XR.png.png" alt="">
+                        <h2>Do’stlar 1х</h2>
+                        <p>43 000 сум</p>
+                        <button onclick="order('Do’stlar 1х', 43000)">+</button>
+                    </div>
+                    <div class="cards-1">
+                        <img src="img/U8v7GsJt5Nahm0L4Vna0u7HEeRc8U9PnU6R6j6TV.png.png" alt="">
+                        <h2>Do’stlar 2х</h2>
+                        <p>79 000 сум</p>
+                        <button onclick="order('Do’stlar 2х', 79000)">+</button>
+                    </div>
+                    <div class="cards-1">
+                        <img src="img/eGsfAo0P5E7gh8aRB0vHPXX2JTKjAFasnhiBO777.png.png" alt="">
+                        <h2>Do’stlar 4х</h2>
+                        <p>149 000 сум</p>
+                        <button onclick="order('Do’stlar 4х', 149000)">+</button>
+                </div>
+                <div class="cards-1">
+                    <img src="img/iHB3KWEddHpod7sUIc82M8pI627orxHpTz18qknX.png.png" alt="">
+                    <h2>Острый Do’stlar 1х</h2>
+                    <p>43 000 сум</p>
+                    <button onclick="order('Острый Do’stlar 1х', 43000)">+</button>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="section-3-footer">
+            <div class="feet">
+            <h3>2024 Все права защищены</h3>
+            <img src="img/main_logo.svg fill.png" alt="">    
+            </div>
+
+        </section>
+    </footer>
+    <script src="script.Js"></script>
+</body>
+</html>
